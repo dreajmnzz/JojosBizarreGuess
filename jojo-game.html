@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Stand - JoJo's Bizarre Adventure</title>
+    <link rel="stylesheet" href="jojos-styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Guess the Stand</h1>
+        <div id="image-container">
+            <img id="stand-image" src="stand-borroso.jpg" alt="Stand">
+        </div>
+        <input type="text" id="guess" placeholder="Guess the Stand...">
+        <button onclick="checkAnswer()">Guess</button>
+        <p id="hint">Hint: This stand can stop time.</p>
+        <div id="score">Points: 0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
