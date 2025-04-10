@@ -2,19 +2,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="index.css">
     <title>JoJo's Bizarre Guess</title>
 </head>
 <body>
     <div class="menu-container">
-        <h1>Welcome to JoJo's Bizarre Guess!</h1> 
-        <p>Test your knowledge about JoJo's Bizarre Adventure!</p>
-        <button onclick="startGame()">PLAY</button> 
+        <div class="textoMenu">
+            <h1>Welcome to JoJo's Bizarre Guess!</h1> 
+            <p>Test your knowledge about JoJo's Bizarre Adventure!</p>
+            <button onclick="startGame()">PLAY</button> 
+            <button onclick="showInstructions()">INSTRUCTIONS</button> 
+        </div>
+       
     </div>
 
     <script>
         function startGame() {
             window.location.href = 'jojo-game.html';  
+        }
+        function showInstructions() {
+            window.location.href = 'instructions.html';
         }
     </script>
 </body>

@@ -1,0 +1,92 @@
+body {
+    font-family: 'Market Felt', fantasy;
+    background-image: url('startmenu.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    height: 100vh;  
+    display: flex; 
+    justify-content: center;  
+    align-items: center; 
+    letter-spacing: 1px; 
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    text-align: center;  
+}
+
+h1, p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    color: white;  
+    background-color: #4CAF50;  
+    padding: 10px 20px;  
+    border-radius: 15px; 
+    transition: background-color 0.3s; 
+    margin: 10px; 
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    margin: 10px;  
+    font-family: 'Market Felt', fantasy;
+    letter-spacing: 1px; 
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#stand-image {
+    width: 300px;
+    height: 300px;
+    filter: blur(10px);
+    transition: filter 2s ease;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.menu-instructions {
+    flex-direction: column;  
+
+}
